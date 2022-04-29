@@ -5,7 +5,12 @@ module.exports = {
 		.setName('ping')
 		.setDescription('Replies with Pong!'),
 	async execute(interaction) {
-		
-		await interaction.reply('Pong!');
+
+		if (interaction.user.id == '275828294115655681') { 
+
+			await interaction.reply('🏓'); 
+
+		}
+
 	},
 };
